@@ -1,0 +1,10 @@
+ALTER TABLE table_teacher
+ADD address varchar(25);
+select *from table_teacher;
+insert into table_teacher values 
+(2,'Ta Thu Ha', 20, 'VN' , 'pt'),
+(3,'Ta', 20, 'VN' , 'pt'),
+(4,'Thu', 20, 'VN' , 'pt'),
+(5,'Thu Ha', 20, 'VN' , 'pt'),
+(6,'THa', 20, 'VN' , 'pt');
+delete from table_teacher where id = 1;
